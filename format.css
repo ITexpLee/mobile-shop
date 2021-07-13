@@ -1,0 +1,141 @@
+<style type="text/css" media="all">
+html{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+body{}
+*{              
+    box-sizing: border-box; 
+}
+#menubar{               /*Menu Bar Edits*/
+	font-size: 27px;
+	color: black;
+	font-family: Cedarville Cursive;
+	font-weight: 500;
+}
+ .carousel-inner img {  /*Carousel Edits*/
+      width: 100%;
+      height: 100%;
+  }
+.carousel-control-next-icon,.carousel-control-prev-icon{
+	color: black !important;
+}
+.carousel-indicators li{
+	background-color: transparent;
+	height: 10px !important;
+	width:10px !important;
+	border-radius: 100% !important;
+	border:1px solid black;
+}
+.carousel-indicators li:hover{
+	background-color:black;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.nav-bar{   /*Navbar Edits*/
+	background-image: linear-gradient(to right,darkcyan,#4CD4FF);
+	color: 
+}
+.starproductstag{       /*Star tag Edits*/
+	font-size: 30px;
+	color: darkslategrey;
+}
+.starline{
+	width: 250px;
+	border: 0.5px solid darkslategrey;
+}
+.tags{
+	font-size: 50px;
+	color:black;
+	font-weight: 700;
+	font-family: Amatic SC;
+}
+ul{
+	list-style: none;
+}
+hr{
+	border: 1px solid black;
+}
+.qualities{              /*Qualities Editing*/
+	font-family: Capriola;
+	font-size: 20px;
+	font-weight: 300;
+	color: gray;
+}
+.qualities:hover{
+	color: darkslategray;
+}
+.links{
+	font-size:15px;
+	font-family: Capriola;
+	font-weight: 300;
+}
+.links a{               /*Links Overall Editings*/
+	text-decoration: none !important;
+	color: gray !important;
+}
+.links a:hover{
+	color: darkslategray !important;
+}
+.connect{               /*Connect Editings*/
+	font-size: 15px;
+	font-family: Capriola;
+	font-weight: 300;
+}
+.connect a{
+	text-decoration: none;
+	color: gray;
+	display: inline-block;
+}
+.connect a:hover{
+	color: darkslategray;
+}
+.features{          /*Featues Editing*/
+	font-family:Hepta Slab;
+	font-size: 15px;
+	color: gray;
+}
+.cardtext{
+	font-family: Amatic SC;
+	font-size: 35px;
+	color: black;
+	font-weight: 700;
+}
+.features li{
+	list-style:circle;
+}
+.features li:hover{
+	color: black;
+	list-style: disc;
+}
+.filterback{          /*Filter Editings*/
+	max-height: inherit;
+	background-color: beige;
+}
+.filterstag{
+	font-family: Amatic SC;
+	font-size: 40px;
+	font-weight: 500;
+}
+.filters{
+	font-family: Leckerli One;
+	font-size: 20px;
+	color: black;
+	font-weight: 200;    
+}
+
+li.filters:hover{   /*pointer Editing*/
+cursor: pointer;
+}
+
+.price{                 /*price text*/
+	font-family: Capriola;
+	font-size: 20px;
+	font-weight: 300;
+}
+</style>
